@@ -1,0 +1,17 @@
+{
+    "project": "Failure Sensor Predictor",
+    "task": "Task 8",
+    "dataset": "NASA C-MAPSS FD001",
+    "model": "Random Forest Classifier",
+    "rolling_window_cycles": 12,
+    "early_warning_horizon_cycles": 24,
+    "training_engines": 80,
+    "validation_engines": 20,
+    "test_engines": 100,
+    "training_samples": 16138,
+    "validation_samples": 4493,
+    "test_samples": 13096,
+    "precision": 0.6945812807881774,
+    "recall": 0.7085427135678392,
+    "f1_score": 0.7014925373134329
+}
