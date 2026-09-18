@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw datasets
+data/*.txt
+data/*.csv
+data/*.zip
+
+# Temporary files
+*.tmp
+.DS_Store
+
+# Google Colab
+*.ipynb_checkpoints/
