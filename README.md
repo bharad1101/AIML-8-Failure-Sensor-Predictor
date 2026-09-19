@@ -55,18 +55,30 @@ Early-warning horizon: 24 cycles
 
 ## Project Structure
 
-AIML_8_FailureSensorPredictor_byte/
-├── data/
+AI-ML-Failure-Sensor-Predictor/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
 ├── notebooks/
-├── src/
+│   └── Failure_Sensor_Predictor.ipynb
+│
 ├── models/
+│   └── failure_sensor_predictor_package.joblib
+│
 ├── outputs/
 │   ├── figures/
+│   │   └── early_warning_timeline.png
+│   │
 │   └── predictions/
+│       └── FD001_test_predictions.csv
+│
 ├── reports/
-├── requirements.txt
-├── README.md
-└── .gitignore
+│   └── final_evaluation_report.json
+│
+└── src/
+    └── inference.py
 
 ## Reproducibility
 
