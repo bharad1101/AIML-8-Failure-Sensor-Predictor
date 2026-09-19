@@ -55,6 +55,7 @@ Early-warning horizon: 24 cycles
 
 ## Project Structure
 
+```text
 AI-ML-Failure-Sensor-Predictor/
 │
 ├── README.md
@@ -79,6 +80,7 @@ AI-ML-Failure-Sensor-Predictor/
 │
 └── src/
     └── inference.py
+```
 
 ## Reproducibility
 
